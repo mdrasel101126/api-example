@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Countries</title>
+    <style>
+        #countries-container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 15px;
+        }
+        .country{
+            border: 2px solid gray;
+            background-color: antiquewhite;
+            border-radius: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div id="country-detail">
+
+            </div>
+        </section>
+        <section>
+            <h1>See All Countries</h1>
+            <div id="countries-container"></div>
+        </section>
+    </main>
+
+    <script src="js/rest-countries.js"></script>
+</body>
+</html>
